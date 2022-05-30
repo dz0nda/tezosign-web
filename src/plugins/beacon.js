@@ -7,10 +7,9 @@ import {
 import { convertXTZToMutez } from '../utils/helpers';
 
 const networkTypesMap = {
-  mainnet: NetworkType.MAINNET,
-  florence: NetworkType.FLORENCENET,
-  delphinet: NetworkType.DELPHINET,
-  edonet: NetworkType.EDONET,
+  main: NetworkType.MAINNET,
+  ithaca: NetworkType.ITHACANET,
+  jakarta: NetworkType.JAKARTANET,
 };
 
 const defNetwork = networkTypesMap[process.env.REACT_APP_TEZOS_NETWORK];
