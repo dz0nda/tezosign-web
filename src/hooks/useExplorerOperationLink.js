@@ -1,7 +1,9 @@
 import { useMemo } from 'react';
 
 const explorerNetworks = {
-  florence: 'florencenet',
+  hangzhou: 'hangzhounet',
+  ithaca: 'ithacanet',
+  main: 'mainnet',
 };
 
 const useExplorerOperationLink = (transactionHash) => {
