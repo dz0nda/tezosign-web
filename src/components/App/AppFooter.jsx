@@ -20,9 +20,9 @@ const AppFooter = () => {
     <TheFooter>
       <div>
         © {currentYear}{' '}
-        <a href="https://atticlab.net" target="_blank" rel="noreferrer">
+        {/* <a href="https://atticlab.net" target="_blank" rel="noreferrer">
           Attic Lab
-        </a>{' '}
+        </a>{' '} */}
         |{' '}
         <a
           href="https://github.com/atticlab/tezosign"
@@ -40,13 +40,10 @@ const AppFooter = () => {
           Front-end repo
         </a>{' '}
         |{' '}
-        <a
-          href="https://tzsignwallet.com/docs"
-          target="_blank"
-          rel="noreferrer"
-        >
+        <a href="https://tzsign.xyz/docs" target="_blank" rel="noreferrer">
           API docs
-        </a>
+        </a>{' '}
+        | Forked from <a href="https://atticlab.net/">Attic Lab</a>
         {/* {' '} |  <a href="https://atticlab.net/">Terms</a> |{' '} */}
         {/* <a href="https://atticlab.net/">Licences</a> |{' '} */}
         {/* <a href="https://atticlab.net/">Github</a> |{' '} */}
