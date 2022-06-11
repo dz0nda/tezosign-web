@@ -2,8 +2,10 @@ import React, { useMemo } from 'react';
 import styled from 'styled-components';
 
 const TheFooter = styled.footer`
+  display: flex;
+  justify-content: space-between;
   padding: 12px 46px;
-  font-size: 16px;
+  font-size: 12px;
   font-weight: 300;
 
   @media (${({ theme }) => theme.smDown}) {
@@ -40,10 +42,16 @@ const AppFooter = () => {
           Front-end repo
         </a>{' '}
         |{' '}
-        <a href="https://tzsign.xyz/docs" target="_blank" rel="noreferrer">
+        <a
+          href="http://www.api.tzsign.xyz:9080/docs"
+          target="_blank"
+          rel="noreferrer"
+        >
           API docs
-        </a>{' '}
-        | Forked from <a href="https://atticlab.net/">Attic Lab</a>
+        </a>
+      </div>
+      <div>
+        Forked from <a href="https://atticlab.net/">Attic Lab</a>
         {/* {' '} |  <a href="https://atticlab.net/">Terms</a> |{' '} */}
         {/* <a href="https://atticlab.net/">Licences</a> |{' '} */}
         {/* <a href="https://atticlab.net/">Github</a> |{' '} */}

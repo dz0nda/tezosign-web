@@ -36,7 +36,7 @@ const schema = Yup.object({
     .required('Required')
     .integer('Decimals must be an integer')
     .min(0, 'Minimum scale is 0')
-    .max(10, 'Maximum scale is 10'),
+    .max(18, 'Maximum scale is 18'),
   ticker: Yup.string()
     .required('Required')
     .max(5, 'At most 5 characters')
