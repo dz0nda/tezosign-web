@@ -57,7 +57,7 @@ const sendOrigination = async (balance = '0', script, delegate = null) => {
     operationDetails: [
       {
         kind: TezosOperationType.ORIGINATION,
-        balance,
+        balance: convertXTZToMutez(balance).toString(),
         delegate,
         script,
       },
