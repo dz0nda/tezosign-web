@@ -36,11 +36,7 @@ const CreateVestingConfirm = ({
     const { delegate, balance } = formData;
 
     try {
-      const resp = await sendOrigination(
-        balance ? balance.toString() : 0,
-        script,
-        delegate,
-      );
+      const resp = await sendOrigination(balance || 0, script, delegate);
 
       onSubmit(resp.transactionHash);
     } catch (e) {
