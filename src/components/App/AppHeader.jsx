@@ -24,8 +24,8 @@ const TheHeader = styled.header`
 
 const BadgeCustom = styled(Badge)`
   border: 0;
-  // background-color: ${({ theme }) => theme.blueDark};
-  color: ${({ theme }) => theme.blue};
+  background-color: ${({ theme }) => theme.lightGray};
+  color: ${({ theme }) => theme.gray};
   padding: 5px 9px;
   font-size: 14px;
   font-weight: 400;
@@ -44,7 +44,7 @@ const AppHeader = () => {
           <img src={logo} alt="TzSign" />
         </NavLink>
 
-        <BadgeCustom style={{ marginLeft: '20px' }}>ithaca</BadgeCustom>
+        <BadgeCustom style={{ marginLeft: '20px' }}>GHOSTNET</BadgeCustom>
       </div>
 
       <div>
