@@ -10,7 +10,7 @@ const networkTypesMap = {
   main: NetworkType.MAINNET,
   ithaca: NetworkType.ITHACANET,
   jakarta: NetworkType.JAKARTANET,
-  ghost: NetworkType.ITHACANET,
+  ghost: NetworkType.GHOSTNET,
 };
 
 const defNetwork = networkTypesMap[process.env.REACT_APP_TEZOS_NETWORK];
